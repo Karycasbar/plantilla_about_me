@@ -1,0 +1,133 @@
+h1 {
+    color: white;
+    margin-left: 30px;
+}
+h2 {
+    color: blueviolet;
+    margin-left: 30px;
+}
+
+.header{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-between;
+
+
+    padding: 20px;
+    font-size: 20px;
+ 
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.footer{
+    background-color: lightcoral;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+p,h1,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+} 
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 26%;
+    height: 800px;
+    background: powderblue;
+    padding: 20px;
+
+  }
+
+  nav h1{
+      width:fit-content;
+      color: #7842b2
+  }
+
+  /*nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 1px;
+  }*/
+
+  article {
+    float: left;
+    padding: 20px;
+    width: 67.9%;
+    background-color: #f1f1f1;
+    height: 800px; 
+  }
+  /*article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }*/
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+.tabla{
+    display: flex;
+    justify-content: center;
+}
